@@ -1,0 +1,30 @@
+body{
+text-align: center;
+	background-color: black;
+	color: white;
+}
+
+h1{
+	font-size: 48pt;
+}
+
+.location{
+	font-size: 24pt;
+}
+
+p{
+	display: inline;
+}
+
+.temperature{
+	font-size: 120pt;
+}
+
+#deg-type{
+	display: inline-block;
+}
+#deg-type:hover{
+	color: lightblue;
+	cursor: pointer;
+}
+

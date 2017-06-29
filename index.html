@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <!-- This tells the browser how to read the document. -->
+    <meta charset="utf-8">
+
+    <!-- Tells the browser what the title of this page should be. -->
+    <title>Weather App</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://darkskyapp.github.io/skycons/skycons.js"></script>
+    <script type="text/javascript" src="js/weather-app.js"></script>
+</head>
+
+<html>
+  <body>
+    <h1>Weather App</h1>
+    <div>
+        <div class="location">
+          <p id="city">City</p>,&nbsp;
+          <p id="state">State</p>
+        </div>
+        <div class="temperature">
+          <p id="temp-text"></p>
+          <div id="deg-type" data-checked="false" >
+            <p>F</p>
+          </div>
+        </div>
+      <canvas id="canvas" width="200" height="100"></canvas>
+    </div>
+  </body>
+</html>
