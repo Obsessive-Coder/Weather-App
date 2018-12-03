@@ -11,5 +11,5 @@
 </p>
 <br>
 <p align="center">
-  <img src="" width="550">
+  <img src="https://github.com/Obsessive-Coder/Weather-App/blob/master/images/screenshot.png?raw=true" width="550">
 </p>
